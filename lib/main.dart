@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:laboratorio_2/pages/SquareArea.dart';
+import 'package:laboratorio_2/pages/CircleArea.dart';
+//import 'package:laboratorio_2/pages/SquareArea.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
 
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: const Squarearea(),
+      home: const CircleArea(),
     );
   }
 }
