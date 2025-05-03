@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:laboratorio_2/pages/CircleArea.dart';
+import 'package:laboratorio_2/pages/home_page.dart';
 //import 'package:laboratorio_2/pages/SquareArea.dart';
 
 void main() {
@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
 
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: const CircleArea(),
+      home: const HomePage(),
     );
   }
 }
